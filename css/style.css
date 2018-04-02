@@ -27,6 +27,19 @@ footer .social-icons a {
 }
 
 
+/* About page */
+
+ul.skills li {
+    background: none;
+    border: none;
+}
+
+ul.skills li:before {
+    content: '✓ ';
+    color: red;
+}
+
+
 /* Media queries for various screen sizes */
 
 @media (max-width: 576px) {
@@ -35,7 +48,7 @@ footer .social-icons a {
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .main .display-4 {
         font-size: 40px;
     }
@@ -43,6 +56,6 @@ footer .social-icons a {
 
 @media (min-width: 992px) {
     .main .display-4 {
-        font-size: 80px;
+        font-size: 65px;
     }
 }
