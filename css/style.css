@@ -40,6 +40,21 @@ ul.skills li:before {
 }
 
 
+/* Portfolio page*/
+
+#project-senadel img {
+    border: black solid;
+}
+
+#project-catalog img {
+    border: lightblue solid;
+}
+
+#project-neighbourhood img {
+    border: gray solid;
+}
+
+
 /* Media queries for various screen sizes */
 
 @media (max-width: 576px) {
